@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Снимок с веб-камеры</title>
+    <title>Снимок с камеры SkyPark</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin-top: 20px; }
         form { display: inline-block; margin-top: 20px; }
@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <h1>Снимок с веб-камеры</h1>
+    <h1>Снимок с камеры</h1>
     <video id="video" autoplay width="640" height="480"></video>
     <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
     <form id="captureForm" method="POST" enctype="multipart/form-data" action="process.php">
